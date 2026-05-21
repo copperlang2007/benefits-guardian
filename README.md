@@ -77,3 +77,21 @@ See generated images: Unified dashboard with $2,847 total, calm blue theme, vet-
 
 **Repo:** https://github.com/copperlang2007/benefits-guardian
 **Contact for collaboration:** [Your details]
+
+## Working Starter
+
+This repository now includes a tested TypeScript domain core for the first Benefits Guardian calculations:
+
+- Social Security COLA impact after Medicare Part B premium changes
+- VA disability compensation kept separate from taxable Social Security projections
+- Household benefit summaries for seniors, veterans, and caregiver users
+- Priority sorting for benefit alerts such as claim deadlines and premium changes
+
+### Local Verification
+
+```bash
+npm ci
+npm run ci
+```
+
+`npm run ci` builds the TypeScript package and runs the Vitest suite. GitHub Actions runs the same check on pull requests and pushes to `main`.
